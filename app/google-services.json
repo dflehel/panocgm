@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762494181942",
+    "project_id": "panocgm",
+    "storage_bucket": "panocgm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762494181942:android:7daacec404307b7edf6e97",
+        "android_client_info": {
+          "package_name": "hu.obuda.university.panocgm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762494181942-7poiptu09kg252ftf61rgukdn8upj17k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClCkGmjD4OrxBaxV1xyf1sS2Otlm-6JKE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762494181942-7poiptu09kg252ftf61rgukdn8upj17k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
