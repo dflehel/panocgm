@@ -23,6 +23,7 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import hu.obuda.university.panocgm.MainActivity;
 import hu.obuda.university.panocgm.R;
 import hu.obuda.university.panocgm.SignUp;
 import hu.obuda.university.panocgm.ui.login.LoginViewModel;
@@ -75,7 +76,8 @@ public class LoginActivity extends AppCompatActivity {
                     updateUiWithUser(loginResult.getSuccess());
                 }
                 setResult(Activity.RESULT_OK);
-
+                Intent intent = new Intent(LoginActivity.this, MainActivity.class);
+                startActivity(intent);
                 //Complete and destroy login activity once successful
                 finish();
             }
